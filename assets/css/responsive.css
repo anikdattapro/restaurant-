@@ -1,0 +1,329 @@
+/* Extra Extra large Device*/
+@media (min-width:1400px) {}
+
+
+/* Extra Large Device*/
+@media (min-width:1200px) and (max-width:1399.98px) {}
+
+
+/* Large Device*/
+@media (min-width:992px) and (max-width:1199.98px) {
+    .review_con_main {
+        width: 60%;
+        padding: 20px 20px;
+    }
+
+}
+
+/* Mediam Device*/
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--primary);
+    }
+
+    .nav-link:hover::after {
+        width: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px;
+      }
+      .navbar-nav {
+        margin-top: 10px;
+      }
+      .head_social {
+        margin-top: 5px;
+        justify-content: start!important;
+      }
+
+      .hero_con_main h2 {
+        font-size: 70px;
+      }
+    .about_con_main p {
+        text-align: justify;
+    }
+
+    .divider_under img {
+        width: 100%;
+    }
+
+    .review_con_main {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+}
+
+/* Small Device*/
+@media (min-width:576px) and (max-width:767.98px) {
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--primary);
+    }
+
+    .nav-link:hover::after {
+        width: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px;
+      }
+      .navbar-nav {
+        margin-top: 10px;
+      }
+      
+      .head_social {
+        margin-top: 5px;
+        justify-content: start!important;
+      }
+      .hero_con_main h2 {
+        font-size: 65px;
+      }
+    .about_con_main p {
+        text-align: justify;
+    }
+
+    .divider_under img {
+        width: 70%;
+    }
+
+    .review_con_main {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .review_inner p:nth-child(3) {
+        font-size: 18px;
+    }
+
+}
+
+/* Extra Small Device*/
+@media (min-width:300px) and (max-width:575.98px) {
+    h2 {
+        font-size: 25px !important;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--primary);
+    }
+
+    .nav-link:hover::after {
+        width: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px;
+      }
+      .navbar-nav {
+        margin-top: 10px;
+      }
+      .head_social {
+        margin-top: 5px;
+        justify-content: start!important;
+      }
+    .logo img {
+        width: 80px;
+    }
+
+    .hero_con_main h2 {
+        font-size: 35px;
+    }
+
+    .divider img {
+        width: 85%;
+    }
+
+    .hero_btn {
+        display: block !important;
+    }
+
+    .btn-primary {
+        margin-top: 0.5rem !important;
+        margin-left: 0 !important;
+    }
+
+    .about_con_main p {
+        text-align: justify;
+    }
+
+    .divider_under img {
+        width: 70%;
+    }
+
+    .about_con_main h2 {
+        font-size: 25px;
+    }
+
+    .ingredients_con_main p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .ingredients_con {
+        margin: 0px;
+        padding: 0px 25px;
+    }
+
+    .ingredients_con_main {
+        width: 95%;
+        padding: 15px 5px;
+    }
+
+    .ingredients_img_inner img {
+        width: 60px;
+    }
+
+    .menu_list_con p {
+        font-size: 18px;
+    }
+
+    .menu_item_list {
+        font-size: 14px;
+    }
+
+    .menu_divder img {
+        width: 60%;
+
+    }
+
+
+    .review_con_main {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .review_inner p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .divider_ingredients img {
+        width: 60%;
+    }
+
+    .divider_reservation img {
+        width: 60%;
+    }
+
+    .btn-book {
+        width: 100%;
+    }
+}
+
+/*Extra extra small*/
+@media (max-width: 299.98px) {
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--primary);
+    }
+
+    .nav-link:hover::after {
+        width: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px;
+      }
+      .navbar-nav {
+        margin-top: 10px;
+      }
+      .head_social {
+        margin-top: 5px;
+        justify-content: start!important;
+      }
+    .logo img {
+        width: 80px;
+    }
+
+    .hero_con_main h2 {
+        font-size: 35px;
+    }
+
+    .divider img {
+        width: 85%;
+    }
+
+    .hero_btn {
+        display: block !important;
+    }
+
+    .btn-primary {
+        margin-top: 0.5rem !important;
+        margin-left: 0 !important;
+    }
+
+    .about_con_main p {
+        text-align: justify;
+    }
+
+    .divider_under img {
+        width: 70%;
+    }
+
+    .about_con_main h2 {
+        font-size: 25px;
+    }
+
+    .ingredients_con_main p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .ingredients_con {
+        margin: 0px;
+        padding: 0px 25px;
+    }
+
+    .ingredients_con_main {
+        width: 95%;
+        padding: 15px 5px;
+    }
+
+    .ingredients_img_inner img {
+        width: 60px;
+    }
+
+    .menu_list_con p {
+        font-size: 18px;
+    }
+
+    .menu_item_list {
+        font-size: 14px;
+    }
+
+    .menu_divder img {
+        width: 60%;
+
+    }
+
+
+    .review_con_main {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .review_inner p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .divider_ingredients img {
+        width: 60%;
+    }
+
+    .divider_reservation img {
+        width: 60%;
+    }
+
+    .btn-book {
+        width: 100%;
+    }
+
+}
